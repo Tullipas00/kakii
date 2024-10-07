@@ -1,0 +1,78 @@
+/* código omitido */
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* código omitido */
+  
+  .lista-menu {
+      display: none;
+      position: absolute;
+  }
+  
+  /* código omitido */
+  /* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+/* código omitido */
+/* código omitido */
+
+:root {
+
+    /* código omitido */
+    
+        --laranja: #EB9B00;
+        --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    }
+    
+    /* código omitido *//* código omitido */
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+/* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+/* código omitido */
+/* código omitido */
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em0;
+}
+/* código omitido */
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
+}
